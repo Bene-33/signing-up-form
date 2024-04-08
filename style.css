@@ -46,18 +46,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* the above default style reset; 
-    start with style */
+/* the above is a default style reset*/
 body{
     display: flex;
     justify-content: space-between;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#right_panel{
+
+#photoCredits{
+	position: absolute;
+	bottom: 1rem;
+	font-size: 0.8rem;
+	color:white;
+}
+
+a{
+ color:white;
+}
+
+#picture{
+	width: 29rem;
+}
+
+#rightPanel{
     display:flex;
     flex-direction: column;
-
-}
-
-img{
-	width: 30rem;
 }
