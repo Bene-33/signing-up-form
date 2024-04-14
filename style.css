@@ -55,7 +55,8 @@ body{
 
 #photoCredits{
 	position: absolute;
-	bottom: 1rem;
+	left: 10em;
+	bottom: 1em;
 	font-size: 0.8rem;
 	color:white;
 }
