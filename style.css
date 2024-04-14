@@ -54,8 +54,6 @@ body{
 
 }
 
-
-
 #leftPanel{
     display:flex;
     flex-direction: column;
@@ -64,9 +62,9 @@ body{
 
 #photoCredits{
 	position: absolute;
-	left: 10em;
-	bottom: 1em;
-	font-size: 0.8rem;
+	left: 8em;
+	bottom: 0.5rem;
+	font-size: 1rem;
 	color:white;
 }
 
@@ -84,12 +82,11 @@ a{
 	justify-content: center;
 	position: absolute;
 	top: 10rem;
-	background-color: black;
-	
+	background-color: rgb(0,0,0,0.5);
 	height: 10rem;
 	width: var(--leftPanelWidth);
 }
-/* import font */
+
 @font-face {
 	font-family: logo;
 	src: url(./fonts/Norse-Bold.otf);
