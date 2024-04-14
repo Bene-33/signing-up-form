@@ -51,6 +51,15 @@ body{
     display: flex;
     justify-content: space-between;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+#leftPanel{
+    display:flex;
+    flex-direction: column;
+	--leftPanelWidth: 30rem;
 }
 
 #photoCredits{
@@ -65,11 +74,28 @@ a{
  color:white;
 }
 
-#picture{
-	width: 29rem;
+#pictureBackground{
+	width: var(--leftPanelWidth);
 }
 
-#rightPanel{
-    display:flex;
-    flex-direction: column;
+#panelBanner{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	top: 10rem;
+	background-color: black;
+	
+	height: 10rem;
+	width: var(--leftPanelWidth);
+}
+/* import font */
+@font-face {
+	font-family: logo;
+	src: url(./fonts/Norse-Bold.otf);
+}
+#fontBanner{
+	color: white;
+	font-family: logo;
+	font-size: 10rem;
 }
