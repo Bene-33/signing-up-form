@@ -50,7 +50,7 @@ table {
 body{
     display: flex;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+	background-color: #f0f0f0;
 }
 
 #leftPanel{
@@ -67,7 +67,7 @@ body{
 	color:white;
 }
 
-a{
+.credits{
  color:white;
 }
 
@@ -97,7 +97,7 @@ a{
 }
 
 #rightPanel{
-	margin-left: 2rem;
+	padding-left: 2rem;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -105,4 +105,31 @@ a{
 
 header{
 	font-size: 1.5rem;
+}
+
+h2{
+	font-size: 1.8rem;
+}
+main{
+	background-color: white;
+}
+form{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 13rem;
+}
+
+input{
+	border-color: #E5E7EB;
+	margin-bottom: 2rem;
+} 
+
+input:invalid{
+	border-color: red;
+}
+
+input:focus{
+	border-color: blue;
+	box-shadow: grey;
 }
