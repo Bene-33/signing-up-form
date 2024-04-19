@@ -51,12 +51,14 @@ body{
     display: flex;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #f0f0f0;
+	--leftPanelWidth: 30rem;
+	--rightPanelMargin: 3rem;
 }
 
 #leftPanel{
     display:flex;
     flex-direction: column;
-	--leftPanelWidth: 30rem;
+
 }
 
 #photoCredits{
@@ -97,7 +99,6 @@ body{
 }
 
 #rightPanel{
-	padding-left: 2rem;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -105,13 +106,18 @@ body{
 
 header{
 	font-size: 1.5rem;
+	padding-left: var(--rightPanelMargin);
 }
 
-h2{
-	font-size: 1.8rem;
-}
 main{
 	background-color: white;
+	padding-left: var(--rightPanelMargin);
+	padding-right: 30rem;
+}
+h2{
+	font-size: 1.8rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
 }
 
 form{
@@ -119,12 +125,14 @@ form{
 	flex-direction: column;
 	flex-wrap: wrap;
 	height: 13rem;
+	width: 39rem;	
 }
 
 input{
 	border-color: #E5E7EB;
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 	border-radius: 0.3rem;
+	height: 1.5rem;
 } 
 
 input:invalid{
@@ -132,6 +140,12 @@ input:invalid{
 }
 
 input:focus{
+	
 	border-color: blue;
 	box-shadow: grey;
+}
+
+
+footer{
+	padding-left: var(--rightPanelMargin);
 }
