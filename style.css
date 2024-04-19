@@ -101,12 +101,13 @@ body{
 #rightPanel{
 	display:flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 }
 
 header{
 	font-size: 1.5rem;
 	padding-left: var(--rightPanelMargin);
+	margin-top: 7rem;
+	margin-bottom: 5rem;
 }
 
 main{
@@ -114,7 +115,9 @@ main{
 	padding-left: var(--rightPanelMargin);
 	padding-right: 23rem;
 	box-shadow: 0rem 2rem 3rem -3rem #888;
+	margin-bottom: 2rem;
 }
+
 h2{
 	font-size: 1.8rem;
 	padding-bottom: 1.5rem;
@@ -141,7 +144,6 @@ input:invalid{
 }
 
 input:focus{
-	
 	border-color: blue;
 	box-shadow: grey;
 }
@@ -149,4 +151,18 @@ input:focus{
 
 footer{
 	padding-left: var(--rightPanelMargin);
+}
+
+#submitButton{
+	border: #596D48;
+	border-radius: 0.3rem;
+	background-color: #596D48;
+	color: white;
+	padding: 0.5rem 2rem 0.5rem 2rem; 
+	margin-bottom: 2em;
+}
+
+#logIn{
+	color:#596D48;
+	text-decoration: none;
 }
