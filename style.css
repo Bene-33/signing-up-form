@@ -112,7 +112,8 @@ header{
 main{
 	background-color: white;
 	padding-left: var(--rightPanelMargin);
-	padding-right: 30rem;
+	padding-right: 23rem;
+	box-shadow: 0rem 2rem 3rem -3rem #888;
 }
 h2{
 	font-size: 1.8rem;
