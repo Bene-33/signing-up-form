@@ -51,7 +51,7 @@ body{
     display: flex;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #f0f0f0;
-	--leftPanelWidth: 30rem;
+	--leftPanelWidth: 31rem;
 	--rightPanelMargin: 3rem;
 }
 
@@ -64,7 +64,7 @@ body{
 #photoCredits{
 	position: absolute;
 	left: 8em;
-	bottom: 0.5rem;
+	bottom: 1rem;
 	font-size: 1rem;
 	color:white;
 }
@@ -113,7 +113,7 @@ header{
 main{
 	background-color: white;
 	padding-left: var(--rightPanelMargin);
-	padding-right: 23rem;
+	padding-right: 19rem;
 	box-shadow: 0rem 2rem 3rem -3rem #888;
 	margin-bottom: 2rem;
 }
