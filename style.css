@@ -168,3 +168,9 @@ footer{
 	color:#596D48;
 	text-decoration: none;
 }
+
+#passwordNotValid{
+	color: red;
+	position: absolute;
+	bottom: 42.8rem;
+}
