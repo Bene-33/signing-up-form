@@ -51,20 +51,24 @@ body{
     display: flex;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #f0f0f0;
-	--leftPanelWidth: 31rem;
+	height: 100%;
+	width: 100%;
+	--leftPanelWidth: 53em;
 	--rightPanelMargin: 3rem;
 }
 
+/* start of the left Panel CSS */
 #leftPanel{
     display:flex;
     flex-direction: column;
+	width: var(--leftPanelWidth);
 
 }
 
 #photoCredits{
 	position: absolute;
-	left: 8em;
-	top: 45rem;
+	left: 13%;
+	top: 98%;
 	font-size: 1rem;
 	color:white;
 }
@@ -82,7 +86,7 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	position: absolute;
-	top: 10rem;
+	top: 28%;
 	background-color: rgb(0,0,0,0.5);
 	height: 10rem;
 	width: var(--leftPanelWidth);
@@ -98,15 +102,17 @@ body{
 	font-size: 10rem;
 }
 
+/* start of the right Panel CSS */
 #rightPanel{
 	display:flex;
 	flex-direction: column;
+	flex: 1 1 100%;
 }
 
 header{
 	font-size: 1.5rem;
 	padding-left: var(--rightPanelMargin);
-	margin-top: 7rem;
+	margin-top: 20%;
 	margin-bottom: 5rem;
 }
 
@@ -171,6 +177,6 @@ footer{
 
 #passwordNotValid{
 	color: red;
-	position: absolute;
-	top: 35.5rem;
+	position: relative;
+	bottom: 9%;
 }
