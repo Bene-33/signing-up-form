@@ -64,7 +64,7 @@ body{
 #photoCredits{
 	position: absolute;
 	left: 8em;
-	bottom: 1rem;
+	top: 45rem;
 	font-size: 1rem;
 	color:white;
 }
@@ -171,6 +171,6 @@ footer{
 
 #passwordNotValid{
 	color: red;
-	position: fixed;
+	position: absolute;
 	top: 35.5rem;
 }
